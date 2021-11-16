@@ -33,7 +33,7 @@
 .college_name {
     display: block;
     margin-bottom: 0.2rem;
-    z-index: 999999;
+    z-index: 99;
     text-align: center;
     font-size: 2.1rem;
     font-weight: 900;
@@ -43,14 +43,14 @@
     display: block;
     /* margin-top: -4rem; */
     color: #047d16;
-    z-index: 999999;
+    z-index: 99;
     text-align: center;
     font-size: 2rem;
     font-weight: 900;
 }
 
 .dev_jam_title {
-    z-index: 999999;
+    z-index: 99;
     text-align: center;
     font-size: 4rem;
     font-weight: 900;
@@ -60,7 +60,7 @@
 }
 
 .dev_jam_tagline {
-    z-index: 999999;
+    z-index: 99;
     margin-top: 4rem;
     text-align: center;
     display: flex;
@@ -80,7 +80,7 @@
     display: block;
     margin: 2rem auto;
     width: 100px;
-    z-index: 99999;
+    z-index: 98;
     font-size: 4rem;
     color: #2c0273;
     cursor: pointer;
@@ -129,7 +129,7 @@
     padding: 2rem;
 }
 
-.cashPriceDivHImg{
+.cashPriceDivHImg {
     width: 5rem;
 }
 
@@ -137,8 +137,8 @@
     transform: scale(1.1);
 }
 
-.cashPriceDivHText{
-    z-index: 999999;
+.cashPriceDivHText {
+    z-index: 99;
     text-align: center;
     font-size: 3rem;
     font-weight: 900;
@@ -148,20 +148,19 @@
     bottom: 18px; */
 }
 
-.cashPrizePostionsDiv{
+.cashPrizePostionsDiv {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.cashPriceImgDiv{
+.cashPriceImgDiv {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-
-.casePriceSubTitle{
+.casePriceSubTitle {
     font-size: 2.5rem;
     font-weight: 900;
     color: #fcba03;
@@ -199,4 +198,36 @@
 
 .ps_card:hover {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.backdropDiv {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999999 !important;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.problemStatementPopUpDiv {
+    min-width: 50%;
+    vertical-align: middle;
+    width: 75% !important;
+    min-height: 50%;
+    height: 75% !important;
+    /* margin: 10rem; */
+    background-color: white;
+    z-index: 9999999 !important;
+    border-radius: 10px;
+}
+
+.problemStatementPopUpDivHeader{
+    padding: 1rem 1rem 0 1rem;
+}
+
+#problemStatementPopUpDivP{
+    padding: 1rem;
 }
